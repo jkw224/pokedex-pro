@@ -12,6 +12,7 @@
 		FB2C21611BADE6F9006DDB43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB2C215F1BADE6F9006DDB43 /* Main.storyboard */; };
 		FB2C21631BADE6F9006DDB43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB2C21621BADE6F9006DDB43 /* Assets.xcassets */; };
 		FB2C21661BADE6F9006DDB43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB2C21641BADE6F9006DDB43 /* LaunchScreen.storyboard */; };
+		FB2C216E1BAE338C006DDB43 /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = FB2C216D1BAE338C006DDB43 /* pokemon.csv */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		FB2C21621BADE6F9006DDB43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB2C21651BADE6F9006DDB43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB2C21671BADE6F9006DDB43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB2C216D1BAE338C006DDB43 /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		FB2C215A1BADE6F9006DDB43 /* pokedex-pro */ = {
 			isa = PBXGroup;
 			children = (
+				FB2C216D1BAE338C006DDB43 /* pokemon.csv */,
 				FB2C215B1BADE6F9006DDB43 /* AppDelegate.swift */,
 				FB2C215D1BADE6F9006DDB43 /* ViewController.swift */,
 				FB2C215F1BADE6F9006DDB43 /* Main.storyboard */,
@@ -123,6 +126,7 @@
 			files = (
 				FB2C21661BADE6F9006DDB43 /* LaunchScreen.storyboard in Resources */,
 				FB2C21631BADE6F9006DDB43 /* Assets.xcassets in Resources */,
+				FB2C216E1BAE338C006DDB43 /* pokemon.csv in Resources */,
 				FB2C21611BADE6F9006DDB43 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
