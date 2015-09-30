@@ -20,6 +20,7 @@
 		FB2C21871BB0AFE0006DDB43 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FB2C21861BB0AFE0006DDB43 /* music.mp3 */; settings = {ASSET_TAGS = (); }; };
 		FB2C21891BB0C75C006DDB43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB2C21881BB0C75C006DDB43 /* Assets.xcassets */; settings = {ASSET_TAGS = (); }; };
 		FB2C218B1BB1D840006DDB43 /* PokemonDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2C218A1BB1D840006DDB43 /* PokemonDetailVC.swift */; settings = {ASSET_TAGS = (); }; };
+		FBA8034E1BB5C852009AC406 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA8034D1BB5C852009AC406 /* Constants.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		FB2C21861BB0AFE0006DDB43 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
 		FB2C21881BB0C75C006DDB43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB2C218A1BB1D840006DDB43 /* PokemonDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonDetailVC.swift; sourceTree = "<group>"; };
+		FBA8034D1BB5C852009AC406 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				FB2C21771BB090D7006DDB43 /* csv.swift */,
+				FBA8034D1BB5C852009AC406 /* Constants.swift */,
 			);
 			name = util;
 			sourceTree = "<group>";
@@ -276,6 +279,7 @@
 				FB2C21751BAE4AEF006DDB43 /* PokeCell.swift in Sources */,
 				FB2C21721BAE417C006DDB43 /* pokemon.swift in Sources */,
 				FB2C215E1BADE6F9006DDB43 /* ViewController.swift in Sources */,
+				FBA8034E1BB5C852009AC406 /* Constants.swift in Sources */,
 				FB2C218B1BB1D840006DDB43 /* PokemonDetailVC.swift in Sources */,
 				FB2C215C1BADE6F9006DDB43 /* AppDelegate.swift in Sources */,
 				FB2C21781BB090D7006DDB43 /* csv.swift in Sources */,

@@ -113,6 +113,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     
     @IBAction func musicBtnPressed(sender: UIButton!) {
         musicBtnToggle(sender)
+        // trying to set up music on/off on Details view
     }
     
     func musicBtnToggle(sender: UIButton!) {
@@ -146,7 +147,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         if segue.identifier == "PokemonDetailVC" {
             if let detailsVC = segue.destinationViewController as? PokemonDetailVC {
                 if let poke = sender as? Pokemon {
-                    detailsVC.pokeType = poke
+                    detailsVC.pokemon = poke
                 }
             }
         }
